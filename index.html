@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: 'Noto Serif Bengali', serif;
+        }
+
+        .article-container {
+            width: 800px;
+            background-color: #ffffff;
+            padding: 60px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            color: #1a1a1a;
+            border-top: 10px solid #d93025; /* Editorial Red Accent */
+        }
+
+        .category-tag {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #d93025;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            display: inline-block;
+            border-bottom: 2px solid #d93025;
+            padding-bottom: 5px;
+        }
+
+        .headline {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 15px 0;
+            color: #222;
+        }
+
+        .sub-headline {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .author-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .author-info {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        .author-name {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .content-body {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+        }
+
+        .content-body p {
+            margin-bottom: 25px;
+        }
+
+        .section-head {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #111;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+
+        /* Pull quote style */
+        .highlight {
+            font-size: 24px;
+            font-weight: 600;
+            font-style: italic;
+            color: #d93025;
+            border-left: 5px solid #d93025;
+            padding-left: 20px;
+            margin: 30px 0;
+            background: #fff5f5;
+            padding: 20px;
+        }
+
+        @media (max-width: 900px) {
+            .article-container {
+                width: 100%;
+                padding: 30px;
+            }
+            .headline {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="article-container">
+        <div class="category-tag">মতামত</div>
+        
+        <h1 class="headline">এপস্টিন ফাইল ও ইউনূস কানেকশন: ১২ ফেব্রুয়ারির গণভোট কি তবে এক নীল নকশা?</h1>
+        
+        <div class="author-box">
+            <div class="author-info">
+                <div class="author-name">নুরুল ইসলাম</div>
+                <div class="date">রাজনীতি ও ভূ-রাজনীতি বিশ্লেষক</div>
+            </div>
+        </div>
+
+        <div class="content-body">
+            <p>
+                জেফরি এপস্টিন ফাইল যখন জনসমক্ষে আসে, তখন তা কেবল এক ধনকুবেরের বিকৃত অপরাধের আমলনামা হিসেবে নয়, বরং আধুনিক বিশ্বের ক্ষমতাধরদের নিয়ন্ত্রণের একটি প্রতিষ্ঠান হিসেবে ধরা দেয়। বিল ক্লিনটন থেকে শুরু করে বিশ্বের প্রভাবশালী রাজনীতিকদের সেই 'ব্ল্যাক বুক'-এর তালিকায় ডক্টর মুহাম্মদ ইউনূসের নাম ১৩ বার আসা কেবল কাকতালীয় কোনো ঘটনা নয়। বরং এটি সেই অদৃশ্য সুতোর টান, যা গত তিন দশক ধরে বিশ্বমঞ্চে একজন 'মানবিক আইকন' তৈরি করেছে।
+            </p>
+
+            <h2 class="section-head">ইউনূস ও ম্যাক্সওয়েল: ব্র্যান্ডিংয়ের অন্তরালে</h2>
+            <p>
+                ডক্টর ইউনূসকে বৈশ্বিক ব্র্যান্ডে পরিণত করার পেছনে ইসাবেল ম্যাক্সওয়েলের (এপস্টিনের প্রধান সহযোগী গিসলেন ম্যাক্সওয়েলের বোন) ভূমিকা আজ আর গোপন নয়। জনপ্রিয় কার্টুন ‘দ্য সিম্পসন’-এ ইউনূসের উপস্থিতি বা ক্লিনটন ফাউন্ডেশনের সাথে তার মিলিয়ন ডলারের সন্দেহজনক ফিন্যান্সিয়াল ট্রেইল—সবই নির্দেশ করে একটি সুসংহত নেটওয়ার্কের দিকে। এই নেটওয়ার্কের মূল লক্ষ্য হলো এমন এক ‘গ্লোবাল অ্যাসেট’ তৈরি করা, যাকে বিপদের সময় দাবার চাল হিসেবে ব্যবহার করা যাবে। হিলারি ক্লিনটনের স্টেট ডিপার্টমেন্ট যখন একজন ব্যাংকারের জন্য বাংলাদেশের ওপর পাহাড়সম চাপ তৈরি করে, তখন বোঝা যায় এই বিনিয়োগ কত গভীর।
+            </p>
+
+            <h2 class="section-head">৯ ফেব্রুয়ারির গোপন চুক্তি এবং একটি 'Locked Policy'</h2>
+            <p>
+                ১২ই ফেব্রুয়ারি নির্বাচনের মাত্র তিন দিন আগে, অর্থাৎ আগামী ৯ই ফেব্রুয়ারি ওয়াশিংটনে এক বিতর্কিত শুল্ক চুক্তিতে সই করতে যাচ্ছে বর্তমান অন্তর্বর্তীকালীন সরকার। প্রশ্ন হলো, হাতে মাত্র ১০ দিন সময় থাকতে কেন এমন দীর্ঘমেয়াদী বাণিজ্যিক বাধ্যবাধকতা তৈরি করা হচ্ছে? এর মাধ্যমে আসলে মার্কিন তুলা ও সয়াবিনের বাজার থেকে শুরু করে জ্বালানি খাত পর্যন্ত পশ্চিমা স্বার্থকে আইনি সুরক্ষা দেওয়া হচ্ছে। এটি একটি পরিকল্পিত কৌশল, যাতে পরবর্তী নির্বাচিত সরকার চাইলেও এই শৃঙ্খল ভাঙতে না পারে এবং বাংলাদেশের অর্থনীতি একটি নির্দিষ্ট বলয়ে আটকে থাকে।
+            </p>
+
+            <div class="highlight">
+                “একই দিনে নির্বাচন ও গণভোট আয়োজনের কৌশলটি অত্যন্ত সুনিপুণ; যাতে নির্বাচনী ডামাডোলের মাঝে সংবিধানের স্থায়ী পরিবর্তনের বিষয়টি সাধারণ মানুষের নজর এড়িয়ে যায়।”
+            </div>
+
+            <h2 class="section-head">একই দিনে নির্বাচন ও গণভোট: দাবার চূড়ান্ত চাল</h2>
+            <p>
+                আগামী ১২ই ফেব্রুয়ারি দেশ এক নজিরবিহীন পরিস্থিতির সাক্ষী হতে যাচ্ছে, যেখানে একই দিনে সংসদীয় নির্বাচনের পাশাপাশি সংবিধান পরিবর্তনের গণভোট অনুষ্ঠিত হবে। ‘জুলাই সনদ’-এর দোহাই দিয়ে সংবিধানের যে আমূল পরিবর্তনের প্রস্তাব করা হয়েছে, এই গণভোট মূলত সেই বৈশ্বিক এজেন্ডার ওপর একটি তথাকথিত ‘জনমতের সিল’ মারার প্রক্রিয়া। একই দিনে নির্বাচন ও গণভোট আয়োজনের কৌশলটি অত্যন্ত সুনিপুণ; যাতে নির্বাচনী ডামাডোলের মাঝে সংবিধানের স্থায়ী পরিবর্তনের বিষয়টি সাধারণ মানুষের নজর এড়িয়ে যায়। ডক্টর ইউনূস এখানে সেই মহলের বিশ্বস্ত ‘ট্রাস্টি’ হিসেবে কাজ করছেন যারা চায় বাংলাদেশের শাসনকাঠামো চিরকাল এই নির্দিষ্ট প্রভাববলয়ে আটকে থাকুক।
+            </p>
+
+            <h2 class="section-head">উপসংহার</h2>
+            <p>
+                স্বাগতম নিউ ওয়ার্ল্ড অর্ডারে। আমরা হয়তো ভাবছি আমরা ভোট দিয়ে ভাগ্য পরিবর্তন করছি, কিন্তু রিয়ালিটি হলো—এপস্টিন সার্কেল বা ক্লিনটন-সোরোস নেটওয়ার্ক অনেক আগেই আমাদের জন্য একটি ‘Locked Policy’ তৈরি করে রেখেছে। ১২ই ফেব্রুয়ারির গণভোট ও নির্বাচন সেই মাস্টারপ্ল্যানের চূড়ান্ত ধাপ মাত্র। এপস্টিন ফাইল কেবল বিদেশের গল্প নয়, এর শেকড় এখন আমাদের নীতিনির্ধারণী টেবিল পর্যন্ত বিস্তৃত। আমরা কি আসলেই স্বাধীন হচ্ছি, নাকি এক অদৃশ্য সাম্রাজ্যবাদের নতুন দাসে পরিণত হচ্ছি—সেই প্রশ্ন তোলার সময় এখনই।
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
